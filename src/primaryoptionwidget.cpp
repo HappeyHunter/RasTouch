@@ -24,7 +24,6 @@ PrimaryOptionWidget::~PrimaryOptionWidget()
 void PrimaryOptionWidget::alignButtons() {
     ui->gridLayout->setAlignment(ui->washingButton, Qt::AlignTop);
     ui->gridLayout->setAlignment(ui->dinnerButton, Qt::AlignTop);
-    ui->gridLayout->setAlignment(ui->guestButton, Qt::AlignTop);
 }
 
 void PrimaryOptionWidget::on_washingButton_clicked()
@@ -35,11 +34,6 @@ void PrimaryOptionWidget::on_washingButton_clicked()
 void PrimaryOptionWidget::on_dinnerButton_clicked()
 {
     emit optionSelected(StaticItems::ButtonOption::Dinner);
-}
-
-void PrimaryOptionWidget::on_guestButton_clicked()
-{
-    emit optionSelected(StaticItems::ButtonOption::Guest);
 }
 
 void PrimaryOptionWidget::showEvent(QShowEvent *event) {

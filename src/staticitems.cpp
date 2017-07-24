@@ -7,8 +7,7 @@ const QMap<StaticItems::ButtonOption, QString> StaticItems::MESSAGES = {{StaticI
                                                                     {StaticItems::ButtonOption::PuttingOnWash, "Putting Wash On"},
                                                                     {StaticItems::ButtonOption::PickDinner, "Pick Dinner"},
                                                                     {StaticItems::ButtonOption::CookDinner, "Cook Dinner"},
-                                                                    {StaticItems::ButtonOption::DinnerReady, "Dinner is ready!"},
-                                                                    {StaticItems::ButtonOption::Guest, "Guest"}};
+                                                                    {StaticItems::ButtonOption::DinnerReady, "Dinner is ready!"}};
 
 QString StaticItems::getMessage(ButtonOption option) {
     QMap<ButtonOption, QString>::const_iterator message = StaticItems::MESSAGES.find(option);

@@ -86,7 +86,6 @@ void MainWindow::handleOption(StaticItems::ButtonOption option) {
     case StaticItems::ButtonOption::Dinner :
         changeView(TouchWindow::DinnerWindow);
         break;
-    case StaticItems::ButtonOption::Guest :
     case StaticItems::ButtonOption::PuttingOnWash :
     case StaticItems::ButtonOption::HangUpWashing :
     case StaticItems::ButtonOption::PickDinner :

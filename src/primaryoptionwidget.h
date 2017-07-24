@@ -27,8 +27,6 @@ private slots:
 
     void on_dinnerButton_clicked();
 
-    void on_guestButton_clicked();
-
 private:
     Ui::PrimaryOptionWidget *ui;
 };

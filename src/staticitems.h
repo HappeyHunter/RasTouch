@@ -12,7 +12,6 @@ public:
         Cancel,
         Washing,
         Dinner,
-        Guest,
         PuttingOnWash,
         HangUpWashing,
         PickDinner,
